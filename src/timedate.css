@@ -1,0 +1,16 @@
+.time {
+  background-color: #faf7d5;
+  font-size: 6rem;
+}
+
+.date {
+  background-color: #fcf17e;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header--timedate {
+  display: flex;
+}
