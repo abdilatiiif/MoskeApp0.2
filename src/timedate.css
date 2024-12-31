@@ -1,6 +1,7 @@
 .time {
   background-color: #faf7d5;
   font-size: 6rem;
+  padding: 20px 100px;
 }
 
 .date {
@@ -9,8 +10,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 20px;
 }
 
 .header--timedate {
   display: flex;
+  padding-top: 20px;
+  border-bottom: 3px solid red;
 }

@@ -1,5 +1,6 @@
 import Timedate from "./Timedate";
 import Content from "./Content";
+import "./index.css";
 
 function App() {
   return (
