@@ -1,6 +1,6 @@
 import "./timedate.css";
 
-export default function TimeDate(props) {
+export default function TimeDate() {
   return (
     <header className="header--timedate">
       <div className="time">14:00:00</div>

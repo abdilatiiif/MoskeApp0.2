@@ -1,0 +1,12 @@
+.content--container {
+  display: flex;
+}
+
+.bismillah {
+  height: 50rem;
+  transform: rotate(270deg);
+}
+
+.bismillah--02 {
+  transform: rotate(90deg);
+}
