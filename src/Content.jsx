@@ -14,12 +14,37 @@ export default function Content(props) {
   const [isha, setIsha] = React.useState("13:33");
   const [jummah, setJummah] = React.useState("13:33");
 
+  //Jamat tider
+  const [duhurjamat, setDuhurjamat] = React.useState("13:33");
+  const [asrjamat, setAsrjamat] = React.useState("13:33");
+  const [maghribjamat, setMaghribjamat] = React.useState("13:33");
+  const [ishajamat, setIshajamat] = React.useState("13:33");
+
   React.useEffect(() => {
     const date = new Date();
     const day = date.getDate();
     console.log(day);
     const bønnIdag = props.bønnetider[0][day];
     console.log(bønnIdag);
+
+    ////////////////////////////////////////////////////////
+    // legge til tid
+
+    function addMinutes(time, minAdd) {
+      const [hours, minutes] = time.split(":").map(Number);
+      const date = new Date();
+      date.setHours(hours, minutes + minAdd, 0, 0);
+
+      const newHours = String(date.getHours()).padStart(2, "0");
+      const newMinutes = String(date.getMinutes()).padStart(2, "0");
+
+      return `${newHours}:${newMinutes}`;
+    }
+    setDuhurjamat(addMinutes(bønnIdag.duhur, 10));
+    setAsrjamat(addMinutes(bønnIdag.asr, 10));
+    setMaghribjamat(addMinutes(bønnIdag.maghrib, 5));
+    setIshajamat(addMinutes(bønnIdag.isha, 5));
+    //////////////////////////////////////////////////////
 
     setFajr(bønnIdag.fajr);
     SetJamat_fajr(bønnIdag.jamat_fajr);
@@ -52,42 +77,42 @@ export default function Content(props) {
         <Row
           classname="content--tabell--row"
           bønntid={soloppgang}
-          jamaat="13:34"
+          jamaat="☀️"
           arabisknavn="طلوع الشمس"
           bønn="Soloppgang"
         />
         <Row
           classname="content--tabell--row"
           bønntid={duhur}
-          jamaat="13:34"
+          jamaat={duhurjamat}
           arabisknavn="الظهر"
           bønn="Duhur"
         />
         <Row
           classname="content--tabell--row"
           bønntid={asr}
-          jamaat="13:34"
+          jamaat={asrjamat}
           arabisknavn="العصر"
           bønn="Asr"
         />
         <Row
           classname="content--tabell--row"
           bønntid={maghrib}
-          jamaat="13:34"
+          jamaat={maghribjamat}
           arabisknavn="المغرب"
           bønn="Maghrib"
         />
         <Row
           classname="content--tabell--row"
           bønntid={isha}
-          jamaat="13:34"
+          jamaat={ishajamat}
           arabisknavn="العشاء"
           bønn="Isha"
         />
         <Row
           classname="content--tabell--row"
           bønntid={jummah}
-          jamaat="13:34"
+          jamaat="🕌"
           arabisknavn="صلاة الجمعة"
           bønn="Jummah"
         />

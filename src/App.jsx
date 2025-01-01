@@ -3,16 +3,18 @@ import Content from "./Content";
 import "./index.css";
 import React from "react";
 
+// Endres hver mnd //////////////////////////////////////////////////////////////////
+
 const bonnetider = [
   {
     1: {
       fajr: "06:52",
       jamat_fajr: "07:32",
-      soloppgang: "09:25",
-      duhur: "12:25",
-      asr: "13:44",
-      maghrib: "15:15",
-      isha: "17:36",
+      soloppgang: "10:32",
+      duhur: "13:11",
+      asr: "23:33",
+      maghrib: "23:59",
+      isha: "02:33",
     },
     2: {
       fajr: "06:52",
