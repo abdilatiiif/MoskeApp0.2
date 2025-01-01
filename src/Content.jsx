@@ -13,7 +13,7 @@ export default function Content(props) {
   const [maghrib, setMaggrib] = React.useState("13:33");
   const [isha, setIsha] = React.useState("13:33");
   const [jummah, setJummah] = React.useState("13:33");
-
+  const [active, setActive] = React.useState(false);
   //Jamat tider
   const [duhurjamat, setDuhurjamat] = React.useState("13:33");
   const [asrjamat, setAsrjamat] = React.useState("13:33");
@@ -30,6 +30,16 @@ export default function Content(props) {
     function giveAnimation(bønnIdag) {
       const allBønn = Object.keys(bønnIdag).map((key) => bønnIdag[key]);
       console.log(allBønn);
+
+      const date = new Date();
+      const newHours = String(date.getHours()).padStart(2, "0");
+      const newMinutes = String(date.getMinutes()).padStart(2, "0");
+
+      const currentTime = `${newHours}:${newMinutes}`;
+
+      console.log(currentTime > "20:41");
+
+      /// jobb videre med å finne neste bønn til animasjon og endre state navn på flere plasser
     }
 
     giveAnimation(bønnIdag);
@@ -76,6 +86,7 @@ export default function Content(props) {
         />
         <Row
           classname="content--tabell--row"
+          active={active}
           bønntid={fajr}
           jamaat={jamat_fajr}
           arabisknavn="الفجر"
@@ -83,6 +94,7 @@ export default function Content(props) {
         />
         <Row
           classname="content--tabell--row"
+          active={active}
           bønntid={soloppgang}
           jamaat="☀️"
           arabisknavn="طلوع الشمس"
@@ -90,6 +102,7 @@ export default function Content(props) {
         />
         <Row
           classname="content--tabell--row"
+          active={active}
           bønntid={duhur}
           jamaat={duhurjamat}
           arabisknavn="الظهر"
@@ -97,6 +110,7 @@ export default function Content(props) {
         />
         <Row
           classname="content--tabell--row"
+          active={active}
           bønntid={asr}
           jamaat={asrjamat}
           arabisknavn="العصر"
@@ -104,6 +118,7 @@ export default function Content(props) {
         />
         <Row
           classname="content--tabell--row"
+          active={active}
           bønntid={maghrib}
           jamaat={maghribjamat}
           arabisknavn="المغرب"
@@ -111,6 +126,7 @@ export default function Content(props) {
         />
         <Row
           classname="content--tabell--row"
+          active={active}
           bønntid={isha}
           jamaat={ishajamat}
           arabisknavn="العشاء"
@@ -118,6 +134,7 @@ export default function Content(props) {
         />
         <Row
           classname="content--tabell--row"
+          active={active}
           bønntid={jummah}
           jamaat="🕌"
           arabisknavn="صلاة الجمعة"
