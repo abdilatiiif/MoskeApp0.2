@@ -23,9 +23,16 @@ export default function Content(props) {
   React.useEffect(() => {
     const date = new Date();
     const day = date.getDate();
-    console.log(day);
     const bønnIdag = props.bønnetider[0][day];
-    console.log(bønnIdag);
+
+    // animasjoner //////////////////////////////////////////////////
+
+    function giveAnimation(bønnIdag) {
+      const allBønn = Object.keys(bønnIdag).map((key) => bønnIdag[key]);
+      console.log(allBønn);
+    }
+
+    giveAnimation(bønnIdag);
 
     ////////////////////////////////////////////////////////
     // legge til tid

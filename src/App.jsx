@@ -12,9 +12,9 @@ const bonnetider = [
       jamat_fajr: "07:32",
       soloppgang: "10:32",
       duhur: "13:11",
-      asr: "23:33",
-      maghrib: "23:59",
-      isha: "02:33",
+      asr: "16:33",
+      maghrib: "20:59",
+      isha: "22:33",
     },
     2: {
       fajr: "06:52",
@@ -288,8 +288,6 @@ const bonnetider = [
     },
   },
 ];
-
-console.log(bonnetider);
 
 function App() {
   const [time, setTime] = React.useState("19:00:23");
