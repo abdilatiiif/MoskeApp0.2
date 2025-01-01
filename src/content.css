@@ -9,10 +9,15 @@
   width: 9rem;
   transform: rotate(270deg);
   font-size: 4rem;
+  height: 100px;
+  margin-top: 250px;
 }
 
 .flip {
   transform: rotate(90deg);
+  right: -20px;
+  top: 100px;
+  margin-top: 250px;
 }
 
 .content--tabell--overskrift {
@@ -22,6 +27,10 @@
   width: 70rem;
   color: #f52121;
   font-size: 30px;
+}
+
+.content--tabell--overskrift p {
+  padding-left: 4.125rem;
 }
 
 .content--tabell--row {
