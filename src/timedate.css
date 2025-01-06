@@ -4,7 +4,7 @@
 }
 
 .date {
-  font-size: 4rem;
+  font-size: 3.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,7 +16,7 @@
   position: relative;
   justify-content: center;
   padding-top: 20px;
-  width: 1450px;
+  width: 1550px;
   border: 5px solid white;
   border-top: none;
 }

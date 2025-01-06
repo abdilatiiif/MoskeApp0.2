@@ -6,7 +6,6 @@ export default function TimeDate(props) {
     <header className="header--timedate">
       <div className="time">{props.time}</div>
       <div className="date">{props.date}</div>
-      <img className="symbol" src="src/pngwing.com.png" alt="symbol" />
     </header>
   );
 }
