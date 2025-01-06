@@ -1,6 +1,5 @@
 import "./content.css";
 /* eslint-disable react/prop-types */
-import React from "react";
 
 export default function Row(props) {
   const styles = {
@@ -12,7 +11,7 @@ export default function Row(props) {
       <div className={props.classname}>
         <p>{props.bønn}</p>
         <p>{props.bønntid}</p>
-        <p> {props.arabisknavn}</p>
+        <p className="arabi">{props.arabisknavn}</p>
         <p style={styles}>{props.jamaat}</p>
       </div>
     </div>

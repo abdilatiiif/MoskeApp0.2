@@ -297,7 +297,9 @@ function App() {
   React.useEffect(() => {
     const interval = setInterval(() => {
       const now = new Date();
-      const time = now.toLocaleTimeString();
+      const time = now.toLocaleTimeString("en-GB");
+
+      console.log(time);
 
       setTime(time);
 

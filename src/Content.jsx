@@ -136,7 +136,7 @@ export default function Content(props) {
           classname="content--tabell--row"
           active={active}
           bønntid={jummah}
-          jamaat="🕌"
+          jamaat={<img className="moske" src="src/mosque-solid.svg" />}
           arabisknavn="صلاة الجمعة"
           bønn="Jummah"
         />
