@@ -96,7 +96,7 @@ export default function Content(props) {
           classname="content--tabell--row"
           active={active}
           bønntid={soloppgang}
-          jamaat="☀️"
+          jamaat={<img className="moske" src="src/sun-solid.svg" />}
           arabisknavn="طلوع الشمس"
           bønn="Soloppgang"
         />

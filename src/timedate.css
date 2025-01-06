@@ -1,12 +1,10 @@
 .time {
-  background-color: #faf7d5;
   font-size: 6rem;
   padding: 20px 100px;
 }
 
 .date {
-  background-color: #fcf17e;
-  font-size: 3rem;
+  font-size: 4rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,6 +13,24 @@
 
 .header--timedate {
   display: flex;
+  position: relative;
+  justify-content: center;
   padding-top: 20px;
-  border-bottom: 3px solid red;
+  width: 1450px;
+}
+
+.symbol {
+  height: 40px;
+  position: absolute;
+  bottom: 0;
+}
+
+.s1 {
+  left: 0;
+}
+.s2 {
+  left: 45%;
+}
+.s3 {
+  right: 0;
 }
