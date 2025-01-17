@@ -18,8 +18,7 @@ export default function Row(props) {
   ) : (
     <div className={props.classname}>
       <div className="bønn--navn">
-        {props.bønn}
-        <div className="bønn--navn"> {props.arabisknavn}</div>
+        {props.bønn} / {props.arabisknavn}
       </div>
       <p>{props.bønntid}</p>
 

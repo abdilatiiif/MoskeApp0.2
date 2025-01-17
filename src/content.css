@@ -52,7 +52,16 @@
 }
 
 .bønn--navn {
-  font-size: 25px;
+  font-size: 40px;
   font-weight: bold;
   width: 20.75rem;
+}
+
+.vipps {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
 }

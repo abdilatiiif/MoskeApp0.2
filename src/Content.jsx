@@ -132,6 +132,9 @@ export default function Content(props) {
           arabisknavn="صلاة الجمعة"
           bønn="Jummah"
         />
+        <div className="vipps">
+          Vipps Hedmark Islamsk kultursenter på: 877778{" "}
+        </div>
       </div>
       <div className="bismillah--container flip">﷽</div>
     </div>
