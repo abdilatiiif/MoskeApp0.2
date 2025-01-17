@@ -7,7 +7,7 @@ export default function Content(props) {
   //bønnetider
   const [fajr, setFajr] = React.useState("14:33");
   const [jamat_fajr, SetJamat_fajr] = React.useState("03:33");
-  const [soloppgang, setSoloppgang] = React.useState("13:33");
+  //const [soloppgang, setSoloppgang] = React.useState("13:33");
   const [duhur, setDuhur] = React.useState("13:33");
   const [asr, setAsr] = React.useState("13:33");
   const [maghrib, setMaggrib] = React.useState("13:33");
@@ -65,7 +65,7 @@ export default function Content(props) {
 
     setFajr(bønnIdag.fajr);
     SetJamat_fajr(bønnIdag.jamat_fajr);
-    setSoloppgang(bønnIdag.soloppgang);
+    //setSoloppgang(bønnIdag.soloppgang);
     setDuhur(bønnIdag.duhur);
     setAsr(bønnIdag.asr);
     setMaggrib(bønnIdag.maghrib);
@@ -91,14 +91,6 @@ export default function Content(props) {
           jamaat={jamat_fajr}
           arabisknavn="الفجر"
           bønn="Fajr"
-        />
-        <Row
-          classname="content--tabell--row"
-          active={active}
-          bønntid={soloppgang}
-          jamaat={<img className="moske" src="src/sun-solid.svg" />}
-          arabisknavn="طلوع الشمس"
-          bønn="Soloppgang"
         />
         <Row
           classname="content--tabell--row"
