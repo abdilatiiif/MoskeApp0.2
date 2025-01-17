@@ -9,17 +9,20 @@ export default function Row(props) {
   return props.active ? (
     <div className="jump">
       <div className={props.classname}>
-        <p>{props.bønn}</p>
+        <p className="bønn--navn">{props.bønn}</p>
         <p>{props.bønntid}</p>
-        <p className="arabi">{props.arabisknavn}</p>
+        <p className="arabi bønn--navn">{props.arabisknavn}</p>
         <p style={styles}>{props.jamaat}</p>
       </div>
     </div>
   ) : (
     <div className={props.classname}>
-      <p>{props.bønn}</p>
+      <div className="bønn--navn">
+        {props.bønn}
+        <div className="bønn--navn"> {props.arabisknavn}</div>
+      </div>
       <p>{props.bønntid}</p>
-      <p> {props.arabisknavn}</p>
+
       <p style={styles}>{props.jamaat}</p>
     </div>
   );

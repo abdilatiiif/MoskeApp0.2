@@ -27,10 +27,7 @@
   width: 100rem;
   color: #3b9c0fff;
   font-size: 30px;
-}
-
-.content--tabell--overskrift p {
-  padding-left: 4.125rem;
+  padding-right: 30px;
 }
 
 .content--tabell--row {
@@ -44,11 +41,18 @@
 .content--tabell--row p {
   width: 18.75rem;
   text-align: center;
-  font-size: 30px;
+  font-size: 55px;
   font-weight: bold;
+  margin: 5px;
 }
 
 .jump {
   animation: bounce;
   animation-duration: 2s;
+}
+
+.bønn--navn {
+  font-size: 25px;
+  font-weight: bold;
+  width: 20.75rem;
 }
