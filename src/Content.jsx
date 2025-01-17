@@ -70,7 +70,7 @@ export default function Content(props) {
     setAsr(bønnIdag.asr);
     setMaggrib(bønnIdag.maghrib);
     setIsha(bønnIdag.isha);
-    setJummah("12:30"); // fredags bønner kan endres
+    setJummah("13:00"); // fredags bønner kan endres
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
@@ -82,7 +82,7 @@ export default function Content(props) {
           classname="content--tabell--overskrift"
           bønntid="Start tid"
           jamaat="Jamaat tid"
-          color={"#119A28"}
+          color={"#ED2A2AFF"}
         />
         <Row
           classname="content--tabell--row"
