@@ -60,7 +60,7 @@ export default function Content(props) {
     setDuhurjamat(addMinutes(bønnIdag.duhur, 10));
     setAsrjamat(addMinutes(bønnIdag.asr, 10));
     setMaghribjamat(addMinutes(bønnIdag.maghrib, 5));
-    setIshajamat(addMinutes(bønnIdag.isha, 5));
+    setIshajamat(addMinutes(bønnIdag.isha, 0));
     //////////////////////////////////////////////////////
 
     setFajr(bønnIdag.fajr);
