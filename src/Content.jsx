@@ -59,12 +59,12 @@ export default function Content(props) {
     }
     setDuhurjamat(addMinutes(bønnIdag.duhur, 10));
     setAsrjamat(addMinutes(bønnIdag.asr, 10));
-    setMaghribjamat(addMinutes(bønnIdag.maghrib, 5));
+    setMaghribjamat(addMinutes(bønnIdag.maghrib, 0));
     setIshajamat(addMinutes(bønnIdag.isha, 0));
+    SetJamat_fajr(addMinutes(bønnIdag.fajr, 10));
     //////////////////////////////////////////////////////
 
     setFajr(bønnIdag.fajr);
-    SetJamat_fajr(bønnIdag.jamat_fajr);
     //setSoloppgang(bønnIdag.soloppgang);
     setDuhur(bønnIdag.duhur);
     setAsr(bønnIdag.asr);
