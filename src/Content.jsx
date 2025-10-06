@@ -57,11 +57,11 @@ export default function Content(props) {
 
       return `${newHours}:${newMinutes}`;
     }
-    setDuhurjamat(addMinutes(bønnIdag.duhur, 10));
+    setDuhurjamat("13:30");
     setAsrjamat(addMinutes(bønnIdag.asr, 10));
     setMaghribjamat(addMinutes(bønnIdag.maghrib, 0));
     setIshajamat(addMinutes(bønnIdag.isha, 0));
-    SetJamat_fajr(addMinutes(bønnIdag.fajr, 20));
+    SetJamat_fajr(addMinutes(bønnIdag.fajr, 10));
     //////////////////////////////////////////////////////
 
     setFajr(bønnIdag.fajr);

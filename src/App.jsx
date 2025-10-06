@@ -14,7 +14,7 @@ const bonnetider = [
       duhur: "13:09",
       asr: "15:52",
       maghrib: "18:52",
-      isha: "20:45",
+      isha: "20:07",
     },
     2: {
       fajr: "05:16",
@@ -23,7 +23,7 @@ const bonnetider = [
       duhur: "13:09",
       asr: "15:50",
       maghrib: "18:49",
-      isha: "20:42",
+      isha: "20:04",
     },
     3: {
       fajr: "05:19",
@@ -32,7 +32,7 @@ const bonnetider = [
       duhur: "14:00",
       asr: "15:48",
       maghrib: "18:46",
-      isha: "20:38",
+      isha: "20:01",
     },
     4: {
       fajr: "05:21",
@@ -41,7 +41,7 @@ const bonnetider = [
       duhur: "13:09",
       asr: "15:45",
       maghrib: "18:43",
-      isha: "20:35",
+      isha: "19:58",
     },
     5: {
       fajr: "05:24",
@@ -50,7 +50,7 @@ const bonnetider = [
       duhur: "13:08",
       asr: "15:43",
       maghrib: "18:40",
-      isha: "20:32",
+      isha: "19:55",
     },
     6: {
       fajr: "05:27",
@@ -59,7 +59,7 @@ const bonnetider = [
       duhur: "13:08",
       asr: "15:41",
       maghrib: "18:36",
-      isha: "20:29",
+      isha: "19:51",
     },
     7: {
       fajr: "05:29",
@@ -68,7 +68,7 @@ const bonnetider = [
       duhur: "13:08",
       asr: "15:39",
       maghrib: "18:33",
-      isha: "20:25",
+      isha: "19:48",
     },
     8: {
       fajr: "05:32",
@@ -77,7 +77,7 @@ const bonnetider = [
       duhur: "13:07",
       asr: "15:36",
       maghrib: "18:30",
-      isha: "20:22",
+      isha: "19:45",
     },
     9: {
       fajr: "05:35",
@@ -86,7 +86,7 @@ const bonnetider = [
       duhur: "13:07",
       asr: "15:34",
       maghrib: "18:27",
-      isha: "20:19",
+      isha: "19:42",
     },
     10: {
       fajr: "05:37",
@@ -95,7 +95,7 @@ const bonnetider = [
       duhur: "14:00",
       asr: "15:32",
       maghrib: "18:24",
-      isha: "20:16",
+      isha: "19:39",
     },
     11: {
       fajr: "05:40",
@@ -104,7 +104,7 @@ const bonnetider = [
       duhur: "13:07",
       asr: "15:29",
       maghrib: "18:21",
-      isha: "20:13",
+      isha: "19:36",
     },
     12: {
       fajr: "05:43",
@@ -113,7 +113,7 @@ const bonnetider = [
       duhur: "13:06",
       asr: "15:27",
       maghrib: "18:18",
-      isha: "20:10",
+      isha: "19:33",
     },
     13: {
       fajr: "05:45",
@@ -122,7 +122,7 @@ const bonnetider = [
       duhur: "13:06",
       asr: "15:25",
       maghrib: "18:15",
-      isha: "20:07",
+      isha: "19:30",
     },
     14: {
       fajr: "05:48",
@@ -131,7 +131,7 @@ const bonnetider = [
       duhur: "13:06",
       asr: "15:23",
       maghrib: "18:12",
-      isha: "20:04",
+      isha: "19:27",
     },
     15: {
       fajr: "05:50",
@@ -140,7 +140,7 @@ const bonnetider = [
       duhur: "13:06",
       asr: "15:20",
       maghrib: "18:09",
-      isha: "20:01",
+      isha: "19:24",
     },
     16: {
       fajr: "05:53",
@@ -149,7 +149,7 @@ const bonnetider = [
       duhur: "13:05",
       asr: "15:18",
       maghrib: "18:06",
-      isha: "19:58",
+      isha: "19:21",
     },
     17: {
       fajr: "05:55",
@@ -158,7 +158,7 @@ const bonnetider = [
       duhur: "14:00",
       asr: "15:16",
       maghrib: "18:03",
-      isha: "19:55",
+      isha: "19:18",
     },
     18: {
       fajr: "05:58",
@@ -167,7 +167,7 @@ const bonnetider = [
       duhur: "13:05",
       asr: "15:14",
       maghrib: "18:00",
-      isha: "19:52",
+      isha: "19:15",
     },
     19: {
       fajr: "06:00",
@@ -176,7 +176,7 @@ const bonnetider = [
       duhur: "13:05",
       asr: "15:11",
       maghrib: "17:57",
-      isha: "19:50",
+      isha: "19:12",
     },
     20: {
       fajr: "06:02",
@@ -185,7 +185,7 @@ const bonnetider = [
       duhur: "13:05",
       asr: "15:09",
       maghrib: "17:54",
-      isha: "19:47",
+      isha: "19:09",
     },
     21: {
       fajr: "06:05",
@@ -194,7 +194,7 @@ const bonnetider = [
       duhur: "13:04",
       asr: "15:07",
       maghrib: "17:51",
-      isha: "19:44",
+      isha: "19:06",
     },
     22: {
       fajr: "06:07",
@@ -203,7 +203,7 @@ const bonnetider = [
       duhur: "13:04",
       asr: "15:05",
       maghrib: "17:48",
-      isha: "19:41",
+      isha: "19:03",
     },
     23: {
       fajr: "06:10",
@@ -212,7 +212,7 @@ const bonnetider = [
       duhur: "13:04",
       asr: "15:03",
       maghrib: "17:45",
-      isha: "19:39",
+      isha: "19:00",
     },
     24: {
       fajr: "06:12",
@@ -221,7 +221,7 @@ const bonnetider = [
       duhur: "13:30",
       asr: "15:00",
       maghrib: "17:42",
-      isha: "19:36",
+      isha: "18:57",
     },
     25: {
       fajr: "06:14",
@@ -230,7 +230,7 @@ const bonnetider = [
       duhur: "13:04",
       asr: "14:58",
       maghrib: "17:39",
-      isha: "19:34",
+      isha: "18:54",
     },
     26: {
       fajr: "05:17",
@@ -239,7 +239,7 @@ const bonnetider = [
       duhur: "12:04",
       asr: "13:56",
       maghrib: "16:36",
-      isha: "18:31",
+      isha: "17:51",
     },
     27: {
       fajr: "05:19",
@@ -248,7 +248,7 @@ const bonnetider = [
       duhur: "12:04",
       asr: "13:54",
       maghrib: "16:33",
-      isha: "18:29",
+      isha: "17:48",
     },
     28: {
       fajr: "05:21",
@@ -257,7 +257,7 @@ const bonnetider = [
       duhur: "12:04",
       asr: "13:52",
       maghrib: "16:30",
-      isha: "18:26",
+      isha: "17:45",
     },
     29: {
       fajr: "05:24",
@@ -266,7 +266,7 @@ const bonnetider = [
       duhur: "12:04",
       asr: "13:50",
       maghrib: "16:28",
-      isha: "18:24",
+      isha: "17:43",
     },
     30: {
       fajr: "05:26",
@@ -275,7 +275,7 @@ const bonnetider = [
       duhur: "12:03",
       asr: "13:48",
       maghrib: "16:25",
-      isha: "18:21",
+      isha: "17:40",
     },
     31: {
       fajr: "05:28",
@@ -284,7 +284,7 @@ const bonnetider = [
       duhur: "13:30",
       asr: "13:46",
       maghrib: "16:22",
-      isha: "18:19",
+      isha: "17:37",
     },
   },
 ];
