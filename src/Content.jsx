@@ -3,6 +3,8 @@ import "./content.css";
 import Row from "./Row";
 import React from "react";
 
+//glob
+
 export default function Content(props) {
   //bønnetider
   const [fajr, setFajr] = React.useState("14:33");
