@@ -72,7 +72,7 @@ export default function Content(props) {
     setAsr(bønnIdag.asr);
     setMaggrib(bønnIdag.maghrib);
     setIsha(bønnIdag.isha);
-    setJummah("12:15"); // fredags bønner kan endres
+    setJummah("12:30"); // fredags bønner kan endres
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
