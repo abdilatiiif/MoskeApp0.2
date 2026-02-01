@@ -64,6 +64,7 @@ export default function Content(props) {
     setMaghribjamat(addMinutes(bønnIdag.maghrib, 0));
     setIshajamat(addMinutes(bønnIdag.isha, 0));
     SetJamat_fajr(addMinutes(bønnIdag.fajr, 10));
+
     //////////////////////////////////////////////////////
 
     setFajr(bønnIdag.fajr);
@@ -72,7 +73,7 @@ export default function Content(props) {
     setAsr(bønnIdag.asr);
     setMaggrib(bønnIdag.maghrib);
     setIsha(bønnIdag.isha);
-    setJummah("12:30"); // fredags bønner kan endres
+    setJummah("13:00"); // fredags bønner kan endres
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
@@ -130,7 +131,7 @@ export default function Content(props) {
           classname="content--tabell--row"
           active={active}
           bønntid={jummah}
-          jamaat={<img className="moske" src="src/mosque-solid.svg" />}
+          jamaat={"13:20"}
           arabisknavn="صلاة الجمعة"
           bønn="Jummah"
         />
