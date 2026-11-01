@@ -131,11 +131,7 @@ export default function Content(props) {
           classname="content--tabell--row"
           active={active}
           bønntid={jummah}
-<<<<<<< HEAD
-          jamaat={"14:00"}
-=======
           jamaat={"13:00"}
->>>>>>> ede090c (nov 2026)
           arabisknavn="صلاة الجمعة"
           bønn="Jummah"
         />
